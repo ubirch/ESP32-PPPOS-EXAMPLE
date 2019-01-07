@@ -606,6 +606,7 @@ static void pppos_client_task()
 		xSemaphoreTake(pppos_mutex, PPPOSMUTEX_TIMEOUT);
 		gsm_status = GSM_STATE_IDLE;
 		xSemaphoreGive(pppos_mutex);
+		ppp_set_usepeerdns(ppp, 1);
 		pppapi_connect(ppp, 0);
 
 		// *** LOOP: Handle GSM modem responses & disconnects ***
