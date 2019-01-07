@@ -90,10 +90,10 @@ const static char http_index_html[] = "<!DOCTYPE html>"
 // ===============================================================================================
 
 // Constants that aren't configurable in menuconfig
-#define WEB_SERVER "loboris.eu"
+#define WEB_SERVER "ubirch.com"
 #define WEB_PORT 80
-#define WEB_URL "http://loboris.eu/ESP32/info.txt"
-#define WEB_URL1 "http://loboris.eu"
+#define WEB_URL "http://loboris.eu/robots.txt"
+#define WEB_URL1 "http://ubirch.com"
 
 #define SSL_WEB_SERVER "www.howsmyssl.com"
 #define SSL_WEB_URL "https://www.howsmyssl.com/a/check"

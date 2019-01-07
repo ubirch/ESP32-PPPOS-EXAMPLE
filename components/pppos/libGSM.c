@@ -137,7 +137,7 @@ static GSM_Cmd cmd_Reg =
 {
 	.cmd = "AT+CREG?\r\n",
 	.cmdSize = sizeof("AT+CREG?\r\n")-1,
-	.cmdResponseOnOk = "CREG: 0,1",
+	.cmdResponseOnOk = "CREG: 0,5",
 	.timeoutMs = 3000,
 	.delayMs = 2000,
 	.skip = 0,
